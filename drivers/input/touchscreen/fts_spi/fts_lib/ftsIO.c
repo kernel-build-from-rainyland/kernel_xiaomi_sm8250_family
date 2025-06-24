@@ -101,7 +101,7 @@ int changeSAD(u8 sad)
 * Retrieve the pointer to the device struct of the IC
 * @return a the device struct pointer if client was previously set or NULL in all the other cases
 */
-struct device *getDev(voidvoid)
+struct device *getDev(void)
 {
 	if (client != NULL)
 		return &(getClient()->dev);
