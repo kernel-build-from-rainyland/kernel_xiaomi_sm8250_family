@@ -55,7 +55,7 @@
 
 #define HEADSET_EVENT_MAX (5)
 
-static struct dentry* mbhc_debugfs_dir;
+static struct dentry* __maybe_unused mbhc_debugfs_dir;
 
 static ssize_t headset_status_read(struct file *filp, char __user *buffer,
 		size_t count, loff_t *ppos);
